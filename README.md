@@ -18,7 +18,7 @@
 
 - **User Experience:** Users can easily identify their expiration date without revealing complete details during entry.
 
-> CVV Masking:
+> Masking of CVV field:
 
 - **Implementation:** The CVV field is masked entirely during input, displaying asterisks (e.g., ...). Only upon focusing or validating can the CVV be momentarily revealed for confirmation.
 
