@@ -12,7 +12,7 @@
 
 - **User Experience:** This allows users to verify their card number while protecting the full details from potential onlookers.
 
-> Expiration Date Masking:
+> Masking on Expiry Date Field:
 
 - **Implementation:** The expiration date field uses a masked format, showing only the month and year in a masked format (e.g., /20). The full date is retained in the backend for processing.
 
