@@ -28,8 +28,36 @@
       <p>Payment</p>
     </div>
 
+    <div class="card">
+      <div class="debit"></div>
+      <div class="container">
+        <div class="wrapper">
+          <div class="outer-card">
+            <div class="forms">
+              <div class="input-items"> <span>Card Number</span> <input placeholder=".... .... .... ...." data-slots="."
+                  data-accept="\d" size="19"> </div>
+              <div class="input-items"> <span>Name on card</span> <input placeholder="Andrew Symonds"> </div>
+              <div class="one-line">
+                <div class="input-items"> <span>Expiry Date</span> <input placeholder="mm/yyyy" data-slots="my"> </div>
+                <div class="input-items"> <span>CVV</span> <input placeholder="..." data-slots="." data-accept="\d"
+                    size="3"> </div>
+              </div>
+              <div class="input-buttons" onclick="onButtonClick()"> <a href="#">Save Changes</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+    integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+    integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./masking.js"></script>
 </body>
 
 </html>
